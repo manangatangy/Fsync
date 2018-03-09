@@ -8,7 +8,7 @@ ext {
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "applinks.ashtonw.net.myucsapplication"
+        applicationId "com.wolfbang.fsync"
         minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
@@ -27,10 +27,8 @@ dependencies {
     annotationProcessor "com.google.dagger:dagger-compiler:${daggerVersion}"
     annotationProcessor "com.cjsoftware-lib:ucs-processor:0.0.1-SNAPSHOT"
 
-
     implementation "com.cjsoftware-lib:ucs-library:0.0.1-SNAPSHOT"
     implementation "com.cjsoftware-lib:ucs-platform-android:0.0.1-SNAPSHOT"
-
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
@@ -47,5 +45,4 @@ dependencies {
     androidTestImplementation 'com.linkedin.dexmaker:dexmaker-mockito:2.12.1'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-
 }

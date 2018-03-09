@@ -19,7 +19,8 @@ import dagger.Provides;
 @Module
 public class MainActivityModule {
     @Provides
-    public ContractBroker<Ui, ScreenNavigation, Coordinator, StateManager> provideContractBroker(MainActivityContract_ContractBroker contractBroker) {
+    public ContractBroker<Ui, ScreenNavigation, Coordinator, StateManager>
+    provideContractBroker(MainActivityContract_ContractBroker contractBroker) {
         return contractBroker;
     }
 

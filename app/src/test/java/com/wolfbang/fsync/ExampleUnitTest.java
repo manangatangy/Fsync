@@ -1,4 +1,4 @@
-package applinks.ashtonw.net.myucsapplication;
+package com.wolfbang.fsync;
 
 import org.junit.Test;
 

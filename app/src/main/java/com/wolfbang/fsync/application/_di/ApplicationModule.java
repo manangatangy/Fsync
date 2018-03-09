@@ -1,4 +1,4 @@
-package applinks.ashtonw.net.myucsapplication.application._di;
+package com.wolfbang.fsync.application._di;
 
 import com.cjsoftware.library.core.ObjectRegistry;
 import com.cjsoftware.library.platform.android.core.facility.DefaultObjectRegistry;
@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
 
 import javax.inject.Singleton;
 
-import applinks.ashtonw.net.myucsapplication.application.Application;
+import com.wolfbang.fsync.application.Application;
 import dagger.Module;
 import dagger.Provides;
 

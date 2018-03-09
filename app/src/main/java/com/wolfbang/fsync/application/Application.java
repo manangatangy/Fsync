@@ -1,4 +1,4 @@
-package applinks.ashtonw.net.myucsapplication.application;
+package com.wolfbang.fsync.application;
 
 import android.support.multidex.MultiDexApplication;
 import android.support.v7.widget.RecyclerView;
@@ -14,9 +14,9 @@ import com.cjsoftware.library.platform.android.uistatepreservation.PreserveValue
 import com.cjsoftware.library.uistatepreservation.rule.PreservationRule;
 import com.cjsoftware.library.uistatepreservation.rule.PreservationRuleGroup;
 
-import applinks.ashtonw.net.myucsapplication.application._di.ApplicationComponent;
-import applinks.ashtonw.net.myucsapplication.application._di.ApplicationModule;
-import applinks.ashtonw.net.myucsapplication.application._di.DaggerApplicationComponent;
+import com.wolfbang.fsync.application._di.ApplicationComponent;
+import com.wolfbang.fsync.application._di.ApplicationModule;
+import com.wolfbang.fsync.application._di.DaggerApplicationComponent;
 
 /**
  * Created by chris on 2/25/2018.

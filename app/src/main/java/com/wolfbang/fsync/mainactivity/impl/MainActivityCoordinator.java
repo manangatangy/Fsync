@@ -1,12 +1,12 @@
-package applinks.ashtonw.net.myucsapplication.mainactivity.impl;
+package com.wolfbang.fsync.mainactivity.impl;
 
 import com.cjsoftware.library.core.UserNavigationRequest;
 import com.cjsoftware.library.platform.android.ucs.BaseCoordinator;
 
-import applinks.ashtonw.net.myucsapplication.mainactivity.MainActivityContract.Coordinator;
-import applinks.ashtonw.net.myucsapplication.mainactivity.MainActivityContract.ScreenNavigation;
-import applinks.ashtonw.net.myucsapplication.mainactivity.MainActivityContract.StateManager;
-import applinks.ashtonw.net.myucsapplication.mainactivity.MainActivityContract.Ui;
+import com.wolfbang.fsync.mainactivity.MainActivityContract.Coordinator;
+import com.wolfbang.fsync.mainactivity.MainActivityContract.ScreenNavigation;
+import com.wolfbang.fsync.mainactivity.MainActivityContract.StateManager;
+import com.wolfbang.fsync.mainactivity.MainActivityContract.Ui;
 
 /**
  * @author chrisjames

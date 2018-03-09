@@ -1,8 +1,8 @@
-package applinks.ashtonw.net.myucsapplication.mainactivity.impl;
+package com.wolfbang.fsync.mainactivity.impl;
 
 import javax.inject.Inject;
 
-import applinks.ashtonw.net.myucsapplication.mainactivity.MainActivityContract.StateManager;
+import com.wolfbang.fsync.mainactivity.MainActivityContract.StateManager;
 
 /**
  * @author chrisjames

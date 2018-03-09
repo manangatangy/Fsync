@@ -1,4 +1,4 @@
-package applinks.ashtonw.net.myucsapplication.shared;
+package com.wolfbang.fsync.shared;
 
 import java.lang.annotation.Retention;
 

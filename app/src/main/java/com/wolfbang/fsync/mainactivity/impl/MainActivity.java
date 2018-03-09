@@ -1,4 +1,4 @@
-package applinks.ashtonw.net.myucsapplication.mainactivity.impl;
+package com.wolfbang.fsync.mainactivity.impl;
 
 import android.support.annotation.NonNull;
 import android.view.View;
@@ -11,15 +11,15 @@ import com.cjsoftware.library.ucs.ContractBroker;
 import com.cjsoftware.library.uistatepreservation.Preserve;
 import com.cjsoftware.library.uistatepreservation.StatePreservationManager;
 
-import applinks.ashtonw.net.myucsapplication.R;
-import applinks.ashtonw.net.myucsapplication.application.Application;
-import applinks.ashtonw.net.myucsapplication.mainactivity.MainActivityContract.Coordinator;
-import applinks.ashtonw.net.myucsapplication.mainactivity.MainActivityContract.ScreenNavigation;
-import applinks.ashtonw.net.myucsapplication.mainactivity.MainActivityContract.StateManager;
-import applinks.ashtonw.net.myucsapplication.mainactivity.MainActivityContract.Ui;
-import applinks.ashtonw.net.myucsapplication.mainactivity._di.DaggerMainActivityComponent;
-import applinks.ashtonw.net.myucsapplication.mainactivity._di.MainActivityComponent;
-import applinks.ashtonw.net.myucsapplication.mainactivity._di.MainActivityModule;
+import com.wolfbang.fsync.R;
+import com.wolfbang.fsync.application.Application;
+import com.wolfbang.fsync.mainactivity.MainActivityContract.Coordinator;
+import com.wolfbang.fsync.mainactivity.MainActivityContract.ScreenNavigation;
+import com.wolfbang.fsync.mainactivity.MainActivityContract.StateManager;
+import com.wolfbang.fsync.mainactivity.MainActivityContract.Ui;
+import com.wolfbang.fsync.mainactivity._di.DaggerMainActivityComponent;
+import com.wolfbang.fsync.mainactivity._di.MainActivityComponent;
+import com.wolfbang.fsync.mainactivity._di.MainActivityModule;
 
 public class MainActivity
         extends BaseUiActivity<Ui, ScreenNavigation, Coordinator, StateManager, MainActivityComponent>

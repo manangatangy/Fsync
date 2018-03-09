@@ -1,4 +1,4 @@
-package applinks.ashtonw.net.myucsapplication.mainactivity;
+package com.wolfbang.fsync.mainactivity;
 
 import com.cjsoftware.library.ucs.BaseUcsContract;
 import com.cjsoftware.library.ucs.UcsContract;

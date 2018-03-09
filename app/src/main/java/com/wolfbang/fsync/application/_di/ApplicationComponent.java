@@ -1,4 +1,4 @@
-package applinks.ashtonw.net.myucsapplication.application._di;
+package com.wolfbang.fsync.application._di;
 
 
 import com.cjsoftware.library.core.ObjectRegistry;
@@ -9,7 +9,7 @@ import java.util.concurrent.Executor;
 
 import javax.inject.Singleton;
 
-import applinks.ashtonw.net.myucsapplication.application.Application;
+import com.wolfbang.fsync.application.Application;
 import dagger.Component;
 
 

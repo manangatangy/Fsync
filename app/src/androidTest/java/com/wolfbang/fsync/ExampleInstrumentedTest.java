@@ -1,4 +1,4 @@
-package applinks.ashtonw.net.myucsapplication;
+package com.wolfbang.fsync;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("applinks.ashtonw.net.myucsapplication", appContext.getPackageName());
+        assertEquals("com.wolfbang.fsync", appContext.getPackageName());
     }
 }

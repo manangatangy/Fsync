@@ -1,4 +1,4 @@
-# MyUcsApplication
+# UcsApplicationSkeleton
 Example skeleton for usc-based app (by CJames)
 Instructions:
 1. ensure you have the [https://github.com/cjsoftware-lib/ucsFramework] project locally by 'git clone https://github.com/cjsoftware-lib/ucsFramework.git'.  Or you could use the snapshot I made on 9/Mar/2018; 'git clone https://github.com/manangatangy/CjSoftwareUscFramework.git'.

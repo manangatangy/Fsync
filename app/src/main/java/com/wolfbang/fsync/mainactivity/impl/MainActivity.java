@@ -20,6 +20,7 @@ import com.wolfbang.fsync.mainactivity.MainActivityContract.Ui;
 import com.wolfbang.fsync.mainactivity._di.DaggerMainActivityComponent;
 import com.wolfbang.fsync.mainactivity._di.MainActivityComponent;
 import com.wolfbang.fsync.mainactivity._di.MainActivityModule;
+import com.wolfbang.fsync.missionsummary.impl.MissionSummaryActivity;
 
 public class MainActivity
         extends BaseUiActivity<Ui, ScreenNavigation, Coordinator, StateManager, MainActivityComponent>
@@ -89,8 +90,15 @@ public class MainActivity
         mTextField.setEnabled(enable);
     }
 
+    //region MainActivityContract.ScreenNavigation
+    @Override
+    public void navigateToMissionSummaryActivity() {
+        startActivity(MissionSummaryActivity.createIntent(this));
+    }
+
     @Override
     public void requestExit() {
         finish();
     }
+    //endregion
 }

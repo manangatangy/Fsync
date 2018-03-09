@@ -1,5 +1,7 @@
 package com.wolfbang.fsync.missionsummary.impl;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -33,7 +35,12 @@ public class MissionSummaryActivity
 
     Button mButton;
 
-    
+    @NonNull
+    public static Intent createIntent(@NonNull Context context) {
+        Intent intent = new Intent(context, MissionSummaryActivity.class);
+        return intent;
+    }
+
     @NonNull
     @Override
     protected ContractBroker<Ui, ScreenNavigation, Coordinator, StateManager> createContractBroker(

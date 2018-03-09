@@ -25,8 +25,9 @@ public class MainActivityCoordinator
 
     @Override
     public void onUserClickedEnable() {
-        getStateManager().setEditTextEnableState(!getStateManager().isEditTextEnabled());
-        getUi().setEditTextEnable(getStateManager().isEditTextEnabled());
+//        getStateManager().setEditTextEnableState(!getStateManager().isEditTextEnabled());
+//        getUi().setEditTextEnable(getStateManager().isEditTextEnabled());
+        getScreenNavigation().navigateToMissionSummaryActivity();
     }
 
     @Override

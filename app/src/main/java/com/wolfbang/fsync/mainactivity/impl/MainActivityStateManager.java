@@ -19,22 +19,22 @@ public class MainActivityStateManager implements StateManager {
 
     @Override
     public void setEditTextEnableState(boolean enable) {
-        try{
-            Thread.sleep(1000);
-        } catch (InterruptedException ex) {
-            // dont care
-        }
-
+//        try{
+//            Thread.sleep(1000);
+//        } catch (InterruptedException ex) {
+//            // dont care
+//        }
+//
         mEditTextEnable = enable;
     }
 
     @Override
     public boolean isEditTextEnabled() {
-        try{
-            Thread.sleep(1000);
-        } catch (InterruptedException ex) {
-            // dont care
-        }
+//        try{
+//            Thread.sleep(1000);
+//        } catch (InterruptedException ex) {
+//            // dont care
+//        }
         return mEditTextEnable;
     }
 }

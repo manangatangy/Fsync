@@ -11,6 +11,7 @@ import com.cjsoftware.library.ucs.UcsContract;
 public interface MainActivityContract extends BaseUcsContract {
 
     interface ScreenNavigation extends BaseScreenNavigationContract {
+        void navigateToMissionSummaryActivity();
         void requestExit();
     }
 
